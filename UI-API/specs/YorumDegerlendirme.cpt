@@ -1,0 +1,27 @@
+# Ana sayfada ki arama kısmına <value> değerini yaz ve ARA butonuna tıkla.
+* "1" saniye bekle
+* "[class='desktopOldAutosuggestTheme-container'] [class='desktopOldAutosuggestTheme-input']" elementine "css" degeri ile tikla
+* "1" saniye bekle
+* "[class='desktopOldAutosuggestTheme-container'] [class='desktopOldAutosuggestTheme-input']" elementine "css" degeri ile <value>'ni yaz
+* "1" saniye bekle
+* "[class='SearchBoxOld-buttonContainer']" elementine "css" degeri ile tikla
+* "1" saniye bekle
+
+# Listelenen ürünlerden <indeks> sırasında ki ürünü seç.
+* "[class='productListContent-root'] li [data-test-id='product-card-container']" elementine "css" degeri ile listeden <indeks> indeksine tikla
+
+# Ürün detay sekmesine geçiş yapılır.
+* "1" sekmesine gecis yap
+* "1" saniye bekle
+
+# Ürün detay sayfasında Değerlendirmeler kısmına sayfa kaydırılır.
+* Scroll yap
+* Scroll yap
+
+# Ürün yorumlarını görmek için Değerlendirmeler butonuna tıklanılır.
+* "[id='reviewsTabTrigger']" elementine "css" degeri ile tikla
+* Scroll yap
+
+# Ürün yorumlarından ilk yoruma EVET cevabı verilir ve <value> yazısının geldiği kontrol edilir.
+* "[class='hermes-ReviewCard-module-34AJ_'] [class='hermes-ReviewCard-module-aOn05'] [class='hermes-ReviewCard-module-tAGUS']" elementine "css" degeri ile listeden "0" indeksine tikla
+* "[class='hermes-ReviewCard-module-uH6Em'] [class='hermes-ReviewCard-module-1ZiTv']" elementinin "css" degerinde ki text <value> degerine esit mi?
